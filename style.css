@@ -1,3 +1,25 @@
-h1 {
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+html, body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 24px auto;
+    position: relative;
+    z-index: 1000;
+    max-width: 960px;
+    min-width: 320px;
+    }
+
+img {
+    width: 100%;
+    height: auto;
+    }
+
+header li {
+      display: inline;
+      padding: .5em;
+    }
+
+a:hover, a:focus, a:active { 
+  text-decoration: none; 
   color: red;
 }
