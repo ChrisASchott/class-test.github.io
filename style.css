@@ -5,7 +5,7 @@ html, body {
     margin: 24px auto;
     position: relative;
     z-index: 1000;
-    max-width: 960px;
+    max-width: 640px;
     min-width: 320px;
     }
 
@@ -16,8 +16,20 @@ img {
 
 header li {
       display: inline;
-      padding: .5em;
+      padding: 2em;
+      text-align: center;
+      background-color: black;
     }
+
+header h1 {
+  font-size: 200%;
+}   
+
+.main {
+      padding: 48px 48px 48px 48px;
+      background-color: white;
+      box-shadow: -12px 12px 24px 0px lightgrey;
+  }
 
 a:hover, a:focus, a:active { 
   text-decoration: none; 
