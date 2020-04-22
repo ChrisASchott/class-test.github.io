@@ -6,7 +6,7 @@ html, body {
     position: relative;
     z-index: 1000;
     max-width: 640px;
-    min-width: 320px;
+    min-width: 320px
     }
 
 img {
@@ -16,14 +16,17 @@ img {
 
 header li {
       display: inline;
-      padding: 1em;
+      margin: 24px auto;
+      padding: .5em 2em .5em 2em;
       text-align: center;
       background-color: black;
       color: white;
     }
 
 header h1 {
-  font-size: 200%;
+  font-size: 300%;
+  text-align: center;
+
 }   
 
 .main {
@@ -32,7 +35,15 @@ header h1 {
       box-shadow: -12px 12px 24px 0px lightgrey;
   }
 
-a:hover, a:focus, a:active { 
+a:link {
+  text-decoration: none;
+}  
+
+a:hover { 
   text-decoration: none; 
   color: red;
+}
+
+a:visited {
+  color: rgb(21, 100, 105)
 }
