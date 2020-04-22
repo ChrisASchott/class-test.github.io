@@ -16,9 +16,10 @@ img {
 
 header li {
       display: inline;
-      padding: 2em;
+      padding: 1em;
       text-align: center;
       background-color: black;
+      color: white;
     }
 
 header h1 {
