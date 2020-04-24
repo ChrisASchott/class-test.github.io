@@ -2,7 +2,7 @@
 
 html, body {
     font-family: 'Libre Baskerville', serif;
-    margin: 24px auto;
+    margin: 0px auto;
     position: relative;
     z-index: 1000;
     max-width: 640px;
@@ -16,16 +16,25 @@ img {
 
 nav {
   background-color: black;
+  padding: 1px;
 }    
 
-header li a:link{
+nav li a:link {
   color: white;
 }
 
-header li {
-      display: inline;
-      padding: 2em;
-      text-align: center;
+nav li a:visited {
+  color: lightskyblue;
+}
+
+nav li {
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      flex-wrap: nowrap;
+      flex-basis: 25%;
+      justify-content: space-evenly;
+      list-style: none;
     }
 
 header h1 {
