@@ -16,7 +16,8 @@ img {
 
 nav {
   background-color: black;
-  padding: 1px;
+  display: grid;
+  grid-column: 1fr 1fr 1fr 1fr;
 }    
 
 nav li a:link {
@@ -28,14 +29,8 @@ nav li a:visited {
 }
 
 nav li {
-      margin: 0;
-      padding: 0;
-      display: inline-flex;
-      flex-wrap: nowrap;
-      flex-basis: 25%;
-      justify-content: space-evenly;
-      list-style: none;
-    }
+  list-style-type: none;
+}
 
 header h1 {
   font-size: 300%;
@@ -43,7 +38,7 @@ header h1 {
 }   
 
 .main {
-      padding: 48px 48px 48px 48px;
+      padding: 48px 48px 24px 48px;
       background-color: white;
       box-shadow: -12px 12px 24px 0px lightgrey;
   }
