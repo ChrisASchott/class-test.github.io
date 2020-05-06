@@ -16,20 +16,20 @@ img {
 
 nav {
   background-color: black;
-  display: grid;
-  grid-column: 1fr 1fr 1fr 1fr;
-}    
+  width: 100%;
+  text-align: justify;
+}
 
+nav li {
+  display: inline-block;
+}
+  
 nav li a:link {
   color: white;
 }
 
 nav li a:visited {
   color: lightskyblue;
-}
-
-nav li {
-  list-style-type: none;
 }
 
 header h1 {
