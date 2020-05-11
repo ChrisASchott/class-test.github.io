@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
 html, body {
+margin: 0;
+padding: 0;
+}
+
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+html, body {
     font-family: 'Libre Baskerville', serif;
     margin: 0px auto;
     position: relative;
@@ -17,13 +26,13 @@ img {
 nav {
   background-color: black;
   width: 100%;
-  text-align: justify;
 }
 
-nav li {
-  display: inline-block;
+.nav-list {
+  display: flex;
+  justify-content: space-around;
 }
-  
+ 
 nav li a:link {
   color: white;
 }
