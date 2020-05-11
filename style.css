@@ -26,6 +26,8 @@ img {
 nav {
   background-color: black;
   width: 100%;
+  padding-top: .01%;
+  border: black;
 }
 
 .nav-list {
