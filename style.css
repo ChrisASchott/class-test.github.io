@@ -54,6 +54,10 @@ header h1 {
       box-shadow: -12px 12px 24px 0px lightgrey;
   }
 
+.main h2 {
+  padding-top: 0;
+}
+
 a:link {
   text-decoration: none;
 }  
