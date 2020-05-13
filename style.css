@@ -62,3 +62,27 @@ a:hover {
   text-decoration: none; 
   color: red;
 }
+
+@media (min-width: 680px) {
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    align-items: center;
+  }
+}
+@media (min-width: 850px) {
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    align-items: center;
+  }
+}
+@media (min-width: 1080px) {
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
