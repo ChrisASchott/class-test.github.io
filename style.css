@@ -39,6 +39,11 @@ nav li a:link {
   color: white;
 }
 
+nav li a:hover { 
+  text-decoration: none; 
+  color: red;
+}
+
 nav li a:visited {
   color: lightskyblue;
 }
@@ -54,19 +59,9 @@ header h1 {
       box-shadow: -12px 12px 24px 0px lightgrey;
   }
 
-.main h2 {
-  line-height: 12%;
-  padding-bottom: 16px;
-}
-
 a:link {
   text-decoration: none;
 }  
-
-a:hover { 
-  text-decoration: none; 
-  color: red;
-}
 
 @media (min-width: 680px) {
   .gallery-grid {
