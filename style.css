@@ -55,7 +55,8 @@ header h1 {
   }
 
 .main h2 {
-  padding-top: 0;
+  line-height: 12%;
+  padding-bottom: 16px;
 }
 
 a:link {
